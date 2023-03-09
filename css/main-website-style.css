@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+
+.navbar{
+
+    display: block;
+    display: flex;
+    background-color: #fff;
+    background: linear-gradient(#fff, #f5f5f5);
+    
+}
+
+.nav-content{
+
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.menu-container{
+
+    display: flex;
+    display: block;
+    padding-right: 5vw;
+    
+}
+
+.nav-menu-list{
+
+    display: block;
+    display: flex;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-item{
+
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-link{
+
+    text-decoration: none;
+    color: rgb(48, 118, 48);
+    font-weight: normal;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar-link:link{
+
+    color: rgb(48, 118, 48);
+}
+
+.navbar-link:hover{
+
+    color: rgb(86, 190, 138);
+}
+
+.navbar-link:active{
+
+    color: rgb(100, 100, 100);
+}
+
+/* .navbar-link:visited{
+
+    color: rgb(70, 0, 0);
+} */
+
+.img-logo{
+
+    width: 26%;
+     margin-top: 3px;
+}
+
+
+
+
+
+
+
+header{
+
+    display: flex;
+    background-image: url(../images/canyon.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.9;
+    box-shadow: 0px 5px 15px #aeaeae;
+}
+
+.header-content{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 60vh;
+}
+
+
+h1{
+    display: block;
+    justify-content: center;
+    letter-spacing: 6px;
+    font-family: 'Signika', sans-serif;
+}
+
+.header-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000;
+}
+
+
+
+
+
+
+
+
+main{
+
+    width: 100%;
+}
+
+.teaser{
+
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.teaser-container{
+
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    padding: 8vw;
+}
+
+.teaser-header{
+    width: 100%;
+    display: flex;
+    padding-bottom: 3vw;
+  
+}
+
+.teaser-h{
+
+    display: flex;
+    width: 100%;
+    color: rgb(48, 118, 48);
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+}
+
+.teaser-text{
+
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.teaser-link-text{
+
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    
+}
+
+.teaser-link-text-ff{
+
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    
+}
+
+.teaser-text p{
+
+    font-size: 10px;
+    color: #7e7e7e;
+}
+
+
+.teaser-link{
+
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 25vw;
+}
+
+.link-aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    height:auto;
+    background-image: url(../images/lightbulb.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.link-aboutus:hover{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    height:auto;
+    background-image: url(../images/lightbulb.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 0.6;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.link-aboutus:active{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    height:auto;
+    background-image: url(../images/lightbulb.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    opacity: 0.6;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.icons{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.icons-container{
+    width: 90vw;
+    display: flex;
+    justify-content:space-between;
+    padding: 8vw;
+}
+
+.icons-and-text{
+
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+}
+
+.icon{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-dscrpt{
+
+    font-size: 10px;
+    color: #7e7e7e;
+    padding: 10px;
+}
+
+.icon i{
+
+    font-size: 24px;
+    color: rgb(48, 118, 48);
+}
+
+.ffashion-link{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    height:auto;
+    background-image: url(../images/scarf.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 0px 0px 20px #000;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.ffashion-link:hover{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    height:auto;
+    background-image: url(../images/scarf.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    opacity: 0.6;
+    text-shadow: 0px 0px 20px #000;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    
+}
+
+.ffashion-link:active{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    height:auto;
+    background-image: url(../images/scarf.jpg);
+    background-size: cover;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    text-shadow: 0px 0px 20px #000;
+    opacity: 0.6;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+footer{
+
+    margin-top: 6vw;
+    width: 100%;
+    display: flex;
+    
+}
+
+.footer-container{
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: #e3e0e0;
+    padding-bottom: 0vw;
+    padding-top: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contact-container{
+
+    display: flex;
+    flex-direction:column;
+    align-content: space-between;
+    width: 10vw;
+    height: 100%;
+}
+
+.contact-h, .media-header{
+
+    font-family: 'Signika', sans-serif;
+    font-size: 9px;
+    color: rgb(48, 118, 48);
+    display: flex;
+    display: block;
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+.phone-header{
+
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-content: space-between;
+    font-size: 8px;
+    color: #757575;
+    font-style: normal;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.phone-number{
+
+    display: flex;
+    align-content: space-between;
+    justify-content: start;
+    align-items: center;
+    font-size: 5px;
+    font-style: normal;
+}
+
+
+.phone{
+
+    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.social-media-container{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons-media{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    padding: 9px;
+    font-size: 2vw;
+    width:100%;
+    color: #757575;
+    align-content: space-between;
+      
+}
+
+
+
+
+

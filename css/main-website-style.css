@@ -40,7 +40,6 @@ body{
     width: 100%;
     height: auto;
     padding: 2px;
-
 }
 
 .menu-container{
@@ -48,7 +47,6 @@ body{
     display: block;
     display: flex;
     padding-right: 5vw;
-    
 }
 
 .nav-menu-list{
@@ -207,7 +205,6 @@ main{
     align-items: center;
     align-content: space-between;
     width:100%;
-    
 }
 
 .teaser-link-text-ff{
@@ -218,7 +215,6 @@ main{
     flex-direction: row;
     align-content: space-between;
     width:100%;
-    
 }
 
 .teaser-text p{
@@ -403,7 +399,6 @@ footer{
     display: flex;
     width: 100%;
     margin-top: 6vw;
-    
 }
 
 .footer-container{
@@ -443,7 +438,6 @@ footer{
     font-weight: lighter;
     text-decoration: none;
     color: rgb(48, 118, 48);
-
 }
 
 .phone-header{
@@ -458,7 +452,6 @@ footer{
     font-size: 8px;
     font-style: normal;
     color: #4e4e4e;
-    
 }
 
 .phone-number{
@@ -478,7 +471,6 @@ footer{
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
 .social-media-container{
@@ -500,8 +492,3 @@ footer{
     font-size: 2vw;
     color: #4e4e4e;
 }
-
-
-
-
-

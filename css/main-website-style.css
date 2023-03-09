@@ -11,8 +11,8 @@ html{
 
 body{
 
-    background-color: #fff;
     font-family: 'Quicksand', sans-serif;
+    background-color: #fff;
 }
 
 
@@ -31,22 +31,22 @@ body{
 
 .nav-content{
 
+    display: block;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     width: 100%;
     height: auto;
     padding: 2px;
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    justify-content: space-between;
 
 }
 
 .menu-container{
 
-    display: flex;
     display: block;
+    display: flex;
     padding-right: 5vw;
     
 }
@@ -55,11 +55,11 @@ body{
 
     display: block;
     display: flex;
-    width: 50vw;
-    display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    width: 50vw;
+    height: auto;
 }
 
 .navbar-item{
@@ -230,7 +230,7 @@ main{
 .teaser-text p{
 
     font-size: 10px;
-    color: #7e7e7e;
+    color: #4e4e4e;
 }
 
 
@@ -334,7 +334,7 @@ main{
 .icon-dscrpt{
 
     font-size: 10px;
-    color: #7e7e7e;
+    color: #4e4e4e;
     padding: 10px;
 }
 
@@ -421,8 +421,8 @@ footer{
     width: 100%;
     flex-direction: row;
     background-color: #e3e0e0;
-    padding-bottom: 0vw;
-    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-top: 2vw;
     justify-content: center;
     align-items: center;
 }
@@ -463,7 +463,7 @@ footer{
     justify-content: start;
     align-content: space-between;
     font-size: 8px;
-    color: #757575;
+    color: ##4e4e4e
     font-style: normal;
     padding-top: 5px;
     margin-bottom: 5px;
@@ -476,7 +476,7 @@ footer{
     align-content: space-between;
     justify-content: start;
     align-items: center;
-    font-size: 5px;
+    font-size: 7px;
     font-style: normal;
 }
 
@@ -506,7 +506,7 @@ footer{
     padding: 9px;
     font-size: 2vw;
     width:100%;
-    color: #757575;
+    color: #4e4e4e;
     align-content: space-between;
       
 }

@@ -70,12 +70,12 @@ body{
 
 .navbar-link{
 
-    text-decoration: none;
-    color: rgb(48, 118, 48);
+    font-size: 12px;
     font-weight: normal;
     font-family: 'Signika', sans-serif;
+    text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    color: rgb(48, 118, 48);
 }
 
 .navbar-link:link{
@@ -93,15 +93,11 @@ body{
     color: rgb(100, 100, 100);
 }
 
-/* .navbar-link:visited{
-
-    color: rgb(70, 0, 0);
-} */
-
 .img-logo{
 
     width: 26%;
-     margin-top: 3px;
+    height: auto;
+    margin-top: 3px;
 }
 
 
@@ -113,12 +109,12 @@ body{
 header{
 
     display: flex;
-    background-image: url(../images/canyon.jpg);
-    background-size: cover;
     width: 100%;
     height: 60vh;
-    opacity: 0.9;
+    background-image: url(../images/canyon.jpg);
+    background-size: cover;
     box-shadow: 0px 5px 15px #aeaeae;
+    opacity: 0.9;
 }
 
 .header-content{
@@ -127,27 +123,27 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     width: 100%;
     height: 60vh;
+    text-align: center;
 }
 
 
 h1{
     display: block;
     justify-content: center;
-    letter-spacing: 6px;
     font-family: 'Signika', sans-serif;
+    letter-spacing: 6px;
 }
 
 .header-text{
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     width: 50vw;
-    color: #fff;
     text-shadow: 0px 0px 10px #000;
+    color: #fff;
 }
 
 
@@ -164,29 +160,27 @@ main{
 
 .teaser{
 
-    
     display: flex;
     justify-content: center;
     width: 100%;
-    height: auto;
-    
+    height: auto; 
 }
 
 .teaser-container{
 
-    width: 90vw;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;  
+    flex-direction: column;
+    width: 90vw;
     padding: 8vw;
 }
 
 .teaser-header{
-    width: 100%;
+
     display: flex;
+    width: 100%;
     padding-bottom: 3vw;
-  
 }
 
 .teaser-h{
@@ -207,23 +201,23 @@ main{
 
 .teaser-link-text{
 
-    width:100%;
     display: flex;
     justify-content:space-between;
     flex-direction: row;
-    align-content: space-between;
     align-items: center;
+    align-content: space-between;
+    width:100%;
     
 }
 
 .teaser-link-text-ff{
 
-    width:100%;
     display: flex;
     justify-content:space-between;
+    align-items: center;
     flex-direction: row;
     align-content: space-between;
-    align-items: center;
+    width:100%;
     
 }
 
@@ -243,58 +237,57 @@ main{
 }
 
 .link-aboutus{
+
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
     width: 80%;
     height:auto;
-    background-image: url(../images/lightbulb.jpg);
-    background-size: cover;
-    border: none;
-    border-radius: 3px;
-    color: #fff;
-    opacity: 0.8;
+    padding: 10px;
     text-decoration: none;
     text-shadow: 0px 0px 20px #000;
+    color: #fff;
+    background-image: url(../images/lightbulb.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    border: none;
+    opacity: 0.8;
 }
 
 .link-aboutus:hover{
 
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
     width: 80%;
     height:auto;
-    background-image: url(../images/lightbulb.jpg);
-    background-size: cover;
-    border: none;
-    border-radius: 3px;
-    color: #fff;
-    opacity: 0.6;
-    backdrop-filter: blur(10px);
+    padding: 10px;
     font-size: 20px;
     text-shadow: 0px 0px 20px #000;
+    color: #fff;
+    background-image: url(../images/lightbulb.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    border: none;
+    opacity: 0.6;
 }
 
 .link-aboutus:active{
 
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
     width: 80%;
     height:auto;
-    background-image: url(../images/lightbulb.jpg);
-    background-size: cover;
-    border: none;
-    border-radius: 3px;
-    color: #000;
-    opacity: 0.6;
-    backdrop-filter: blur(10px);
+    padding: 10px;
     font-size: 20px;
     text-shadow: 0px 0px 20px #000;
+    color: #000;
+    background-image: url(../images/lightbulb.jpg);
+    background-size: cover;
+    border-radius: 3px;
+    border: none;
+    opacity: 0.6;
 }
 
 .icons{
@@ -306,36 +299,37 @@ main{
 }
 
 .icons-container{
-    width: 90vw;
+
     display: flex;
     justify-content:space-between;
+    width: 90vw;
     padding: 8vw;
 }
 
 .icons-and-text{
 
-    width:100%;
     display: flex;
     justify-content:space-between;
+    align-items: center;
     flex-direction: row;
     align-content: space-between;
-    align-items: center;
+    width:100%;
 }
 
 .icon{
 
-    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .icon-dscrpt{
 
+    padding: 10px;
     font-size: 10px;
     color: #4e4e4e;
-    padding: 10px;
 }
 
 .icon i{
@@ -347,58 +341,55 @@ main{
 .ffashion-link{
 
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
     width: 80%;
     height:auto;
+    padding: 10px;
+    text-shadow: 0px 0px 20px #000;
+    text-decoration: none;
+    color: #fff;
     background-image: url(../images/scarf.jpg);
     background-size: cover;
-    border: none;
     border-radius: 3px;
-    color: #fff;
-    text-shadow: 0px 0px 20px #000;
+    border: none;
     opacity: 0.8;
-    text-decoration: none;
 }
 
 .ffashion-link:hover{
 
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
     width: 80%;
     height:auto;
+    padding: 10px;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #000;
+    color: #fff;
     background-image: url(../images/scarf.jpg);
     background-size: cover;
-    border: none;
     border-radius: 3px;
-    color: #fff;
-    opacity: 0.6;
-    text-shadow: 0px 0px 20px #000;
-    backdrop-filter: blur(10px);
-    font-size: 20px;
-    
+    border: none;
+    opacity: 0.6;  
 }
 
 .ffashion-link:active{
 
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
     width: 80%;
     height:auto;
+    padding: 10px;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px #000;
+    color: #000;
     background-image: url(../images/scarf.jpg);
     background-size: cover;
-    border: none;
     border-radius: 3px;
-    color: #000;
-    text-shadow: 0px 0px 20px #000;
+    border: none;
     opacity: 0.6;
-    backdrop-filter: blur(10px);
-    font-size: 20px;
 }
 
 
@@ -409,22 +400,22 @@ main{
 
 footer{
 
-    margin-top: 6vw;
-    width: 100%;
     display: flex;
+    width: 100%;
+    margin-top: 6vw;
     
 }
 
 .footer-container{
 
     display: flex;
-    width: 100%;
-    flex-direction: row;
-    background-color: #e3e0e0;
-    padding-bottom: 1vw;
-    padding-top: 2vw;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+    background-color: #e3e0e0;
 }
 
 .contact{
@@ -445,13 +436,13 @@ footer{
 
 .contact-h, .media-header{
 
+    display: block;
+    display: flex;
     font-family: 'Signika', sans-serif;
     font-size: 9px;
-    color: rgb(48, 118, 48);
-    display: flex;
-    display: block;
-    text-decoration: none;
     font-weight: lighter;
+    text-decoration: none;
+    color: rgb(48, 118, 48);
 
 }
 
@@ -459,23 +450,23 @@ footer{
 
     display: block;
     display: flex;
-    align-items: center;
     justify-content: start;
+    align-items: center;
     align-content: space-between;
-    font-size: 8px;
-    color: ##4e4e4e
-    font-style: normal;
     padding-top: 5px;
     margin-bottom: 5px;
+    font-size: 8px;
+    font-style: normal;
+    color: #4e4e4e;
     
 }
 
 .phone-number{
 
     display: flex;
-    align-content: space-between;
     justify-content: start;
     align-items: center;
+    align-content: space-between;
     font-size: 7px;
     font-style: normal;
 }
@@ -501,14 +492,13 @@ footer{
 
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     text-align: center;
+    flex-direction: row;
+    align-content: space-between;
+    width:100%;
     padding: 9px;
     font-size: 2vw;
-    width:100%;
     color: #4e4e4e;
-    align-content: space-between;
-      
 }
 
 

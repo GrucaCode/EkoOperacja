@@ -17,478 +17,967 @@ body{
 
 
 
+@media (min-width: 481px) and (max-width: 768px){
+
+    .navbar{
+
+        display: flex;
+        background-color: #fff;
+        background: linear-gradient(#fff, #f5f5f5);
+    }
+
+    .nav-content{
+
+        display: block;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 2vw;
+    }
+
+    .menu-container{
+
+        display: block;
+        display: flex;
+        padding-right: 5vw;
+    }
+
+    .nav-menu-list{
+
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 50vw;
+        height: auto;
+    }
+
+    .navbar-item{
+
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navbar-link{
+
+        font-size: 2.5vw;
+        font-weight: normal;
+        font-family: 'Signika', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(48, 118, 48);
+    }
+
+    .navbar-link:link{
+
+        color: rgb(48, 118, 48);
+    }
+
+    .navbar-link:hover{
+
+        color: rgb(86, 190, 138);
+    }
+
+    .navbar-link:active{
+
+        color: rgb(100, 100, 100);
+    }
+
+    .img-logo{
+
+        width: 30%;
+        height: auto;
+        margin-top: 3px;
+    }
 
 
 
-.navbar{
 
-    display: block;
-    display: flex;
-    background-color: #fff;
-    background: linear-gradient(#fff, #f5f5f5);
-    
+
+
+
+    header{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40vw;
+        background-image: url(../images/canyon.jpg);
+        background-size: cover;
+        box-shadow: 0px 5px 15px #aeaeae;
+        opacity: 0.9;
+    }
+
+
+    h1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-size: 6vw;
+        font-family: 'Signika', sans-serif;
+        letter-spacing: 1vw;
+        text-align: center;
+    }
+
+    .header-text{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        text-shadow: 0px 0px 10px #000;
+        color: #fff;
+    }
+
+    .header-dscrpt
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-size: 2.3vw;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+    main{
+
+        width: 100%;
+    }
+
+    .teaser{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto; 
+    }
+
+    .teaser-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        flex-direction: column;
+        width: 90vw;
+        padding-top: 8vw;
+        padding-bottom: 8vw;
+    }
+
+    .teaser-header{
+
+        display: flex;
+        width: 100%;
+        padding-bottom: 3vw;
+    }
+
+    .teaser-h{
+
+        display: flex;
+        width: 100%;
+        color: rgb(48, 118, 48);
+        font-family: 'Signika', sans-serif;
+        font-size: 4vw;
+    }
+
+    .teaser-text{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .teaser-link-text{
+
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        width: 80vw;
+    }
+
+    .teaser-link-text-ff{
+
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        align-content: space-between;
+        width:100%;
+    }
+
+    .teaser-text p{
+
+        font-size: 2.2vw;
+        color: #4e4e4e;
+        text-align: justify;
+        width: 50vw;
+    }
+
+    .teaser-link{
+
+        display: flex;
+        justify-content: right;
+        width: 70vw;
+        height: 40vw;
+        margin-top: 7vw;
+    }
+
+    .link-aboutus{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        text-decoration: none;
+        text-shadow: 0px 0px 20px #000;
+        color: #fff;
+        background-image: url(../images/lightbulb.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.8;
+    }
+
+    .link-aboutus:hover{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #fff;
+        background-image: url(../images/lightbulb.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;
+    }
+
+    .link-aboutus:active{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #000;
+        background-image: url(../images/lightbulb.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;
+    }
+
+    .icons{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .icons-container{
+
+        display: flex;
+        justify-content:space-between;
+        width: 90vw;
+        padding: 8vw;
+    }
+
+    .icons-and-text{
+
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        align-content: space-between;
+        width:100%;
+    }
+
+    .icon{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .icon-dscrpt{
+
+        padding: 10px;
+        font-size: 10px;
+        color: #4e4e4e;
+    }
+
+    .icon i{
+
+        font-size: 24px;
+        color: rgb(48, 118, 48);
+    }
+
+    .ffashion-link{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        text-shadow: 0px 0px 20px #000;
+        text-decoration: none;
+        color: #fff;
+        background-image: url(../images/scarf.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.8;
+    }
+
+    .ffashion-link:hover{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #fff;
+        background-image: url(../images/scarf.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;  
+    }
+
+    .ffashion-link:active{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #000;
+        background-image: url(../images/scarf.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;
+    }
+
+
+
+
+
+
+
+    footer{
+
+        display: flex;
+        width: 100%;
+        margin-top: 6vw;
+    }
+
+    .footer-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 2vw;
+        padding-bottom: 1vw;
+        background-color: #e3e0e0;
+    }
+
+    .contact{
+
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .contact-container{
+
+        display: flex;
+        flex-direction:column;
+        align-content: space-between;
+        width: 10vw;
+        height: 100%;
+    }
+
+    .contact-h, .media-header{
+
+        display: flex;
+        font-family: 'Signika', sans-serif;
+        font-size: 9px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: rgb(48, 118, 48);
+    }
+
+    .phone-header{
+
+        display: block;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        align-content: space-between;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-size: 8px;
+        font-style: normal;
+        color: #4e4e4e;
+    }
+
+    .phone-number{
+
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        align-content: space-between;
+        font-size: 7px;
+        font-style: normal;
+    }
+
+
+    .phone{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .social-media-container{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .icons-media{
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: row;
+        align-content: space-between;
+        width:100%;
+        padding: 9px;
+        font-size: 2vw;
+        color: #4e4e4e;
+    }
+
 }
 
-.nav-content{
 
-    display: block;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    padding: 2px;
-}
 
-.menu-container{
 
-    display: block;
-    display: flex;
-    padding-right: 5vw;
-}
 
-.nav-menu-list{
 
-    display: block;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 50vw;
-    height: auto;
-}
+@media (min-width: 769px){
 
-.navbar-item{
+    .navbar{
 
-    display: flex;
-    list-style-type: none;
-}
+        display: flex;
+        background-color: #fff;
+        background: linear-gradient(#fff, #f5f5f5);
+    }
 
-.navbar-link{
+    .nav-content{
 
-    font-size: 12px;
-    font-weight: normal;
-    font-family: 'Signika', sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(48, 118, 48);
-}
+        display: block;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 2px;
+    }
 
-.navbar-link:link{
+    .menu-container{
 
-    color: rgb(48, 118, 48);
-}
+        display: block;
+        display: flex;
+        padding-right: 5vw;
+    }
 
-.navbar-link:hover{
+    .nav-menu-list{
 
-    color: rgb(86, 190, 138);
-}
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 50vw;
+        height: auto;
+    }
 
-.navbar-link:active{
+    .navbar-item{
 
-    color: rgb(100, 100, 100);
-}
+        display: flex;
+        list-style-type: none;
+    }
 
-.img-logo{
+    .navbar-link{
 
-    width: 26%;
-    height: auto;
-    margin-top: 3px;
-}
+        font-size: 12px;
+        font-weight: normal;
+        font-family: 'Signika', sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(48, 118, 48);
+    }
 
+    .navbar-link:link{
 
+        color: rgb(48, 118, 48);
+    }
 
+    .navbar-link:hover{
 
+        color: rgb(86, 190, 138);
+    }
 
+    .navbar-link:active{
 
+        color: rgb(100, 100, 100);
+    }
 
-header{
+    .img-logo{
 
-    display: flex;
-    width: 100%;
-    height: 60vh;
-    background-image: url(../images/canyon.jpg);
-    background-size: cover;
-    box-shadow: 0px 5px 15px #aeaeae;
-    opacity: 0.9;
-}
+        width: 26%;
+        height: auto;
+        margin-top: 3px;
+    }
 
-.header-content{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    height: 60vh;
-    text-align: center;
-}
 
 
-h1{
-    display: block;
-    justify-content: center;
-    font-family: 'Signika', sans-serif;
-    letter-spacing: 6px;
-}
 
-.header-text{
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 50vw;
-    text-shadow: 0px 0px 10px #000;
-    color: #fff;
-}
 
+    header{
 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40vw;
+        background-image: url(../images/canyon.jpg);
+        background-size: cover;
+        box-shadow: 0px 5px 15px #aeaeae;
+        opacity: 0.9;
+    }
 
 
+    h1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-size: 6vw;
+        font-family: 'Signika', sans-serif;
+        letter-spacing: 1vw;
+        text-align: center;
+    }
 
+    .header-text{
 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 50vw;
+        height: auto;
+        text-shadow: 0px 0px 10px #000;
+        color: #fff;
+    }
 
+    .header-dscrpt
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        font-size: 2.3vw;
+        text-align: center;
+    }
 
-main{
 
-    width: 100%;
-}
 
-.teaser{
+
+
+
 
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto; 
-}
+
+    main{
 
-.teaser-container{
+        width: 100%;
+    }
+
+    .teaser{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto; 
+    }
+
+    .teaser-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        flex-direction: column;
+        width: 90vw;
+        padding: 8vw;
+    }
+
+    .teaser-header{
+
+        display: flex;
+        width: 100%;
+        padding-bottom: 3vw;
+    }
+
+    .teaser-h{
+
+        display: flex;
+        width: 100%;
+        color: rgb(48, 118, 48);
+        font-family: 'Signika', sans-serif;
+        font-size: 20px;
+    }
+
+    .teaser-text{
+
+        display: flex;
+        flex-direction: column;
+        width: 35vw;
+    }
+
+    .teaser-link-text{
+
+        display: flex;
+        justify-content:space-between;
+        flex-direction: row;
+        align-items: center;
+        align-content: space-between;
+        width:100%;
+    }
+
+    .teaser-link-text-ff{
+
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        align-content: space-between;
+        width:100%;
+    }
+
+    .teaser-text p{
+
+        font-size: 10px;
+        color: #4e4e4e;
+    }
+
+    .teaser-link{
+
+        display: flex;
+        justify-content: right;
+        width: 100%;
+        height: 25vw;
+    }
+
+    .link-aboutus{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        text-decoration: none;
+        text-shadow: 0px 0px 20px #000;
+        color: #fff;
+        background-image: url(../images/lightbulb.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.8;
+    }
+
+    .link-aboutus:hover{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #fff;
+        background-image: url(../images/lightbulb.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;
+    }
+
+    .link-aboutus:active{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #000;
+        background-image: url(../images/lightbulb.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;
+    }
+
+    .icons{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .icons-container{
+
+        display: flex;
+        justify-content:space-between;
+        width: 90vw;
+        padding: 8vw;
+    }
+
+    .icons-and-text{
+
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: row;
+        align-content: space-between;
+        width:100%;
+    }
+
+    .icon{
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .icon-dscrpt{
+
+        padding: 10px;
+        font-size: 10px;
+        color: #4e4e4e;
+    }
+
+    .icon i{
+
+        font-size: 24px;
+        color: rgb(48, 118, 48);
+    }
+
+    .ffashion-link{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        text-shadow: 0px 0px 20px #000;
+        text-decoration: none;
+        color: #fff;
+        background-image: url(../images/scarf.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.8;
+    }
+
+    .ffashion-link:hover{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #fff;
+        background-image: url(../images/scarf.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;  
+    }
+
+    .ffashion-link:active{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height:auto;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 0px 20px #000;
+        color: #000;
+        background-image: url(../images/scarf.jpg);
+        background-size: cover;
+        border-radius: 3px;
+        border: none;
+        opacity: 0.6;
+    }
+
+
+
+
+
+
+
+    footer{
+
+        display: flex;
+        width: 100%;
+        margin-top: 6vw;
+    }
+
+    .footer-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 2vw;
+        padding-bottom: 1vw;
+        background-color: #e3e0e0;
+    }
+
+    .contact{
+
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .contact-container{
+
+        display: flex;
+        flex-direction:column;
+        align-content: space-between;
+        width: 10vw;
+        height: 100%;
+    }
+
+    .contact-h, .media-header{
+
+        display: flex;
+        font-family: 'Signika', sans-serif;
+        font-size: 9px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: rgb(48, 118, 48);
+    }
+
+    .phone-header{
+
+        display: block;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        align-content: space-between;
+        padding-top: 5px;
+        margin-bottom: 5px;
+        font-size: 8px;
+        font-style: normal;
+        color: #4e4e4e;
+    }
+
+    .phone-number{
+
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        align-content: space-between;
+        font-size: 7px;
+        font-style: normal;
+    }
+
+
+    .phone{
+
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .social-media-container{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .icons-media{
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: row;
+        align-content: space-between;
+        width:100%;
+        padding: 9px;
+        font-size: 2vw;
+        color: #4e4e4e;
+    }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    flex-direction: column;
-    width: 90vw;
-    padding: 8vw;
-}
 
-.teaser-header{
-
-    display: flex;
-    width: 100%;
-    padding-bottom: 3vw;
-}
-
-.teaser-h{
-
-    display: flex;
-    width: 100%;
-    color: rgb(48, 118, 48);
-    font-family: 'Signika', sans-serif;
-    font-size: 20px;
-}
-
-.teaser-text{
-
-    display: flex;
-    flex-direction: column;
-    width: 35vw;
-}
-
-.teaser-link-text{
-
-    display: flex;
-    justify-content:space-between;
-    flex-direction: row;
-    align-items: center;
-    align-content: space-between;
-    width:100%;
-}
-
-.teaser-link-text-ff{
-
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: row;
-    align-content: space-between;
-    width:100%;
-}
-
-.teaser-text p{
-
-    font-size: 10px;
-    color: #4e4e4e;
-}
-
-
-.teaser-link{
-
-    display: flex;
-    justify-content: right;
-    width: 100%;
-    height: 25vw;
-}
-
-.link-aboutus{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height:auto;
-    padding: 10px;
-    text-decoration: none;
-    text-shadow: 0px 0px 20px #000;
-    color: #fff;
-    background-image: url(../images/lightbulb.jpg);
-    background-size: cover;
-    border-radius: 3px;
-    border: none;
-    opacity: 0.8;
-}
-
-.link-aboutus:hover{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height:auto;
-    padding: 10px;
-    font-size: 20px;
-    text-shadow: 0px 0px 20px #000;
-    color: #fff;
-    background-image: url(../images/lightbulb.jpg);
-    background-size: cover;
-    border-radius: 3px;
-    border: none;
-    opacity: 0.6;
-}
-
-.link-aboutus:active{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height:auto;
-    padding: 10px;
-    font-size: 20px;
-    text-shadow: 0px 0px 20px #000;
-    color: #000;
-    background-image: url(../images/lightbulb.jpg);
-    background-size: cover;
-    border-radius: 3px;
-    border: none;
-    opacity: 0.6;
-}
-
-.icons{
-
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-}
-
-.icons-container{
-
-    display: flex;
-    justify-content:space-between;
-    width: 90vw;
-    padding: 8vw;
-}
-
-.icons-and-text{
-
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: row;
-    align-content: space-between;
-    width:100%;
-}
-
-.icon{
-
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.icon-dscrpt{
-
-    padding: 10px;
-    font-size: 10px;
-    color: #4e4e4e;
-}
-
-.icon i{
-
-    font-size: 24px;
-    color: rgb(48, 118, 48);
-}
-
-.ffashion-link{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height:auto;
-    padding: 10px;
-    text-shadow: 0px 0px 20px #000;
-    text-decoration: none;
-    color: #fff;
-    background-image: url(../images/scarf.jpg);
-    background-size: cover;
-    border-radius: 3px;
-    border: none;
-    opacity: 0.8;
-}
-
-.ffashion-link:hover{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height:auto;
-    padding: 10px;
-    font-size: 20px;
-    text-shadow: 0px 0px 20px #000;
-    color: #fff;
-    background-image: url(../images/scarf.jpg);
-    background-size: cover;
-    border-radius: 3px;
-    border: none;
-    opacity: 0.6;  
-}
-
-.ffashion-link:active{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height:auto;
-    padding: 10px;
-    font-size: 20px;
-    text-shadow: 0px 0px 20px #000;
-    color: #000;
-    background-image: url(../images/scarf.jpg);
-    background-size: cover;
-    border-radius: 3px;
-    border: none;
-    opacity: 0.6;
-}
-
-
-
-
-
-
-
-footer{
-
-    display: flex;
-    width: 100%;
-    margin-top: 6vw;
-}
-
-.footer-container{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 2vw;
-    padding-bottom: 1vw;
-    background-color: #e3e0e0;
-}
-
-.contact{
-
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.contact-container{
-
-    display: flex;
-    flex-direction:column;
-    align-content: space-between;
-    width: 10vw;
-    height: 100%;
-}
-
-.contact-h, .media-header{
-
-    display: block;
-    display: flex;
-    font-family: 'Signika', sans-serif;
-    font-size: 9px;
-    font-weight: lighter;
-    text-decoration: none;
-    color: rgb(48, 118, 48);
-}
-
-.phone-header{
-
-    display: block;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    align-content: space-between;
-    padding-top: 5px;
-    margin-bottom: 5px;
-    font-size: 8px;
-    font-style: normal;
-    color: #4e4e4e;
-}
-
-.phone-number{
-
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    align-content: space-between;
-    font-size: 7px;
-    font-style: normal;
-}
-
-
-.phone{
-
-    display: block;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.social-media-container{
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.icons-media{
-
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    flex-direction: row;
-    align-content: space-between;
-    width:100%;
-    padding: 9px;
-    font-size: 2vw;
-    color: #4e4e4e;
 }

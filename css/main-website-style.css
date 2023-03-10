@@ -44,7 +44,8 @@ body{
         display: block;
         display: flex;
         padding-right: 5vw;
-        margin-top:2px
+        margin-top:2px;
+        padding-bottom: 10px;
     }
 
     .nav-menu-list{
@@ -96,6 +97,7 @@ body{
         width: 40%;
         height: auto;
         margin-top: 3px;
+        padding-top: 10px;
     }
 
 
